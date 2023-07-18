@@ -4,3 +4,61 @@
 *{
     font-family: 'Work Sans', sans-serif;
 }
+
+
+
+/* Navbar styles */
+
+nav{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-logo-container{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: 50%;
+}
+
+.nav-logo-container  h3{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.nav-content-container{
+    width: 50%;
+}
+
+.nav-content-container ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-content-container li{
+    list-style: none;
+}
+
+.nav-content-container a{
+    text-decoration: none;
+    color: #3C354F;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.nav-content-container .nav-btn{
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    border: none;
+    color: #3C354F;
+    font-size: 1.25rem;
+    font-weight: 500;
+
+}
