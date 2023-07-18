@@ -155,9 +155,7 @@ nav{
 
 .online-vedio-content{
     display: grid;
-    grid-template-columns: repeat(4 , 2fr);
-    position: relative;
-    
+    grid-template-columns: repeat(4 , 1fr);   
 }
 .online-vedio-content img{
     width: 250px;

@@ -78,6 +78,21 @@
     .banner-img-container img{
         width: 100%;
     }
+
+    /* vedio section */
+
+    .online-vedio-content{
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr);
+        margin: 50px 50px;
+    }
+    .online-vedio-content img{
+        width: 100%;
+    }
+    .vedio-caption{
+        padding: 5px;
+        margin-bottom: 40px;
+    }
     
 }
 
@@ -118,6 +133,18 @@
         width: 100%;
     }
     .banner-img-container img{
+        width: 100%;
+    }
+
+    /* vedio section */
+
+    .online-vedio-content{
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+        gap: 30px;
+        margin: 20px;
+    }
+    .online-vedio-content img{
         width: 100%;
     }
 }
