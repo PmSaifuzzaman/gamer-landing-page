@@ -5,7 +5,10 @@
     font-family: 'Work Sans', sans-serif;
 }
 
-
+main{
+    max-width: 1140px;
+    margin: 50px auto;
+}
 
 /* Navbar styles */
 
@@ -130,3 +133,61 @@ nav{
 .banner-img-container img{
     width: 80%;
 }
+
+/* Online Games Funny Videos section style */
+
+.online-vedio-description{
+    text-align: center;
+}
+
+.online-vedio-description h3{
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.online-vedio-description p{
+    color: #534C64;
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.online-vedio-content{
+    display: grid;
+    grid-template-columns: repeat(4 , 2fr);
+    position: relative;
+    
+}
+.online-vedio-content img{
+    width: 250px;
+}
+
+.vedio-caption{
+    color: #534C64;
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding-top: 15px;
+}
+/* Watch now button add here */
+.single-vedio{
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+  }
+.watch-now {
+    margin-top: 10px;
+    color: #FF42A5;
+    font-weight: 800;
+  }
+.overlay i {
+    font-size: 3rem;
+  }
+/* Watch now button add end here */
