@@ -66,6 +66,7 @@ nav{
 /* Banner section style */
 .banner-container{
     display: flex;
+    justify-content: space-between;
 }
 .banner-content-container{
     width: 50%;
@@ -73,8 +74,8 @@ nav{
     background-image: url("../images/Group\ 14.png");
     background-repeat: no-repeat;
     background-position: center;
-    background-size:100%;
-    border: 2px solid red;
+    background-size: 100%;
+    padding-top: 1rem;
     
 }
 
@@ -124,9 +125,8 @@ nav{
 
 .banner-img-container{
     width: 50%;
-    border: 2px solid green;
 }
 
 .banner-img-container img{
-    width: 100%;
+    width: 80%;
 }
