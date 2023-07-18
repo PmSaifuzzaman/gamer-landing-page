@@ -93,8 +93,47 @@
         padding: 5px;
         margin-bottom: 40px;
     }
+
+    /* play online section */
+    .online-play-container{
+        flex-direction: column-reverse;
+        margin-top: 0;
+        gap: 0px;
+    }
+    .online-play-img{
+        width: 80%;
+        margin-left: 50px;
+        
+    }
+    .online-play-img  .overlay-img{
+        width: 120px;
+        height: 170px;
+        padding: 5px;
+        position: relative;
+        bottom: 100px;
+        right: 50px;
+    }
+    .online-play-description{
+        width: 100%;
+        padding-top: 0;
+    }
+    .online-play-description h3{
+        text-align: center;
+        padding-top: 0;
+        margin-top: 0;
+    }
+    .online-play-description p{
+        text-align: center;
+    }
     
 }
+
+
+
+
+
+
+
 
 
 
@@ -146,5 +185,29 @@
     }
     .online-vedio-content img{
         width: 100%;
+    }
+
+    /* Play online section */
+    .online-play-container{
+        flex-direction: column;
+        margin-top: 0;
+        gap: 0px;
+    }
+    .online-play-img{
+        width: 80%;
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+    .online-play-description{
+        width: 100%;
+        padding-top: 0;
+    }
+    .online-play-description h3{
+        text-align: center;
+        padding-top: 0;
+        margin-top: 50px;
+    }
+    .online-play-description p{
+        text-align: center;
     }
 }
